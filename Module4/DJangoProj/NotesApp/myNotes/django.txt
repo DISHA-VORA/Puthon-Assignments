@@ -1,0 +1,3 @@
+% if request.GET.results_per_page == item or paginate_by == item %}
+        selected="selected" {% endif %}
+        >{{ item }}
